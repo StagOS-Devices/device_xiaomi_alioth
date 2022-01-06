@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The Havoc-OS
+# Copyright (C) 2022 The Stag-OS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,9 +9,9 @@
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
 
-# Inherit some common Havoc-OS stuff.
+# Inherit some common Stag-OS stuff.
 
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/stag/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
 
